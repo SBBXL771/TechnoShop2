@@ -4,11 +4,9 @@ const path = require('path');
 const nextConfig = {
   outputFileTracingRoot: path.join(__dirname),
   eslint: {
-    // ✅ build paytida ESLint xatolarni inkor qiladi
     ignoreDuringBuilds: true,
   },
   typescript: {
-    // ✅ agar TypeScript xatolari bo‘lsa ham build to‘xtamasin
     ignoreBuildErrors: true,
   },
   images: {
