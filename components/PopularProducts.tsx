@@ -30,7 +30,7 @@ export default function PopularProducts() {
       title: 'Macbook Pro',
       description:
         'iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.',
-      image: '/images/macbook.png'
+      image: '/images/Macbook.png'
     },
   ];
 
